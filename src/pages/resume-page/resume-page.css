@@ -1,0 +1,25 @@
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume__button {
+    margin-top: 200px;
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    background-color: #1b8699;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    transition: all 0.6s ease;
+}
+
+.resume__button:hover {
+    background-color: #58bcce;
+    
+}

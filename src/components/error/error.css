@@ -1,0 +1,10 @@
+.error {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error h1 {
+    color: #fff;
+    margin-top: 60px;
+}

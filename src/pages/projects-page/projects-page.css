@@ -1,0 +1,40 @@
+.cards_wrapper {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 4;
+}
+.projects_title {
+  width: 100%;
+}
+.projects_title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+@media only screen and (max-width: 900px) {
+  .cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+  .projects_title h1 {
+    font-size: 20px;
+  }
+}

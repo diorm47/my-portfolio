@@ -1,0 +1,90 @@
+.card {
+  max-width: 350px;
+  height: 400px;
+
+  background-color: #121313;
+
+  border-radius: 15px;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card_items {
+  padding: 0 10px;
+}
+
+.card_title h1 {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card_description p {
+  text-indent: 15px;
+  margin: 0;
+}
+.card_img img {
+  width: 350px;
+  border-radius: 15px;
+}
+.technologies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  bottom: 80px;
+}
+.technologies p {
+  font-size: 14px;
+  margin: 0 10px;
+  background-color: #80808079;
+  padding: 2px 6px 3px;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.card_buttons {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  bottom: 15px;
+  right: 80px;
+}
+
+.card_buttons a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  width: 70px;
+  height: 30px;
+
+  background-color: #263f3f;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.6s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card_buttons a:hover {
+  background-color: #169aa7;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    margin-bottom: 10px;
+  }
+}
