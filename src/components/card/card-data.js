@@ -95,4 +95,13 @@ export const projects = [
     code: "https://github.com/diorm47/game-store-reactjs-app",
     demo: "https://game-store-diorm47.vercel.app",
   },
+  {
+    id: 11,
+    image: "/projects/social.png",
+    title: "Social Network",
+    techlogogies: ["React.js", "Redux", "React-Router-Dom", "Redux-Thunk"],
+    description: "Social Network in React/Redux with many features:",
+    code: "https://github.com/diorm47/social-network",
+    demo: "https://social-network-oblivion.vercel.app",
+  },
 ];
