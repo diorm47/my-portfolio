@@ -27,11 +27,12 @@ const AboutPage = () => {
             <h1>About Me</h1>
             <div className="about_me-description">
               <p>
-                Hi everyone, I am Diyor Makhammadjanov from Namangan,
-                Uzbekistan. Front End Developer who loves to transform ideas
-                into reality using code. Motivated developer with experience
-                creating custom websites with React.js, JavaScript, HTML5, CSS3
-                and many other technologies.
+                My name is Diyor. I am currently looking for a job as a junior
+                React.js developer. Know the latest frontend technologies. I
+                have about a year of experience in JavaScript library - React.js
+                and create dynamic web applications using it. Actively learning
+                TypeScript at now. I am a fast learner, sociable, hardworking,
+                capable and I speak English well (intermediate).
               </p>
             </div>
           </div>
