@@ -30,7 +30,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="contacts__block">
+        <div className="contacts__block"> 
           <div className="contacts_main">
             <h1>Get in Touch</h1>
           </div>
