@@ -33,7 +33,7 @@ h2 {
 }
 
 .contacts__block {
-  margin-top: 90px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,7 +140,7 @@ h2 {
     font-size: 15px;
   }
   .contacts__block {
-    margin-bottom: 0;
+    padding-bottom: 15px;
   }
   .home__main-infos {
     margin-top: 10px;
@@ -156,7 +156,7 @@ h2 {
     font-size: 13px;
   }
   .contacts__block {
-    margin-bottom: 0;
+    margin-top: 35px;
   }
 }
 
