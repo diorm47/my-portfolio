@@ -37,4 +37,10 @@
   .projects_title h1 {
     font-size: 20px;
   }
+  .cards .card {
+    margin-bottom: 20px;
+  }
+  .projects_title {
+    margin-bottom: 20px;
+  }
 }

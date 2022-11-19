@@ -35,9 +35,11 @@ const NavBar = () => {
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/resume">Resume</NavLink>
           </div>
-          <div className="menu_close" 
-          data-aos="fade-left"
-          data-aos-duration="1000">
+          <div
+            className="menu_close"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <img
               className={!menuActive ? "menu" : "hide_menu"}
               onClick={() => setActive(true)}
@@ -54,7 +56,10 @@ const NavBar = () => {
         </div>
       </nav>
 
-      <div className={menuActive ? "menu_bar nav__bar-items" : "close_menu"}>
+      <div
+        onClick={() => setActive(false)}
+        className={menuActive ? "menu_bar nav__bar-items" : "close_menu"}
+      >
         <NavLink to="/home">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
