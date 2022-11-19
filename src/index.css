@@ -22,3 +22,19 @@ code {
   padding-top: 70px;
   padding: 70px 20px 0px 20px;
 }
+
+a,
+p,
+h1,
+h2,
+h3,
+span,
+input,
+img,
+select,
+div,
+button,
+svg {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}

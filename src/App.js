@@ -19,7 +19,7 @@ function App() {
       <NavBar />
       <div className="app">
         <Suspense fallback={<Loader />}>
-          <Routes>
+          <Routes>   
             <Route exact path="/" element={<Navigate to={"/home"} />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

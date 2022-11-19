@@ -1,19 +1,30 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React from "react";
 
 import "./home-page.css";
 
+import { useEffect } from "react";
+import avatar from "../../assets/avatar.jpg";
 import github from "../../assets/icons/github.png";
 import gmail from "../../assets/icons/gmail.png";
 import instagram from "../../assets/icons/instagram.png";
 import telegram from "../../assets/icons/telegram.png";
-import avatar from "../../assets/avatar.jpg";
 
 const HomePage = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <main>
       <div className="home__wrapper">
         <div className="home__main-infos">
-          <div className="main__infos">
+          <div
+            className="main__infos"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h2>Hi There!</h2>
             <h1>
               I'm <span>Diyor Makhammadjonov</span>
@@ -25,12 +36,20 @@ const HomePage = () => {
               technologies and features.
             </p>
           </div>
-          <div className="home__avatar">
+          <div
+            className="home__avatar"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <img className="avatar" src={avatar} alt="avatar_image" />
           </div>
         </div>
 
-        <div className="contacts__block"> 
+        <div
+          className="contacts__block"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="contacts_main">
             <h1>Get in Touch</h1>
           </div>
