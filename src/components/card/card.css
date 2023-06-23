@@ -1,9 +1,9 @@
 .card {
-  max-width: 350px;
-  height: 400px;
+  max-width: 600px;
+  height: 550px;
 
   background-color: #121313;
-
+  position: relative;
   border-radius: 15px;
   color: #fff;
   position: relative;
@@ -31,7 +31,7 @@
   margin: 0;
 }
 .card_img img {
-  width: 350px;
+  width: 100%;
   border-radius: 15px;
 }
 .technologies {
@@ -53,22 +53,22 @@
 }
 
 .card_buttons {
-  width: 180px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   position: absolute;
   bottom: 15px;
-  right: 80px;
+ 
 }
 
 .card_buttons a {
   color: #fff;
   cursor: pointer;
   text-decoration: none;
-  width: 70px;
-  height: 30px;
+  width: 150px;
+  height: 35px;
 
   background-color: #263f3f;
 

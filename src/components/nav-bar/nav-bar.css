@@ -17,7 +17,7 @@ nav {
 .menu_close .menu,
 .close {
   width: 30px;
-  padding-right: 20px;
+
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
@@ -34,7 +34,6 @@ nav {
   font-size: 25px;
   font-weight: 600;
   cursor: default;
-  padding-left: 20px;
 }
 
 .nav__bar-items a {
@@ -101,5 +100,9 @@ nav {
 
   .close_menu a {
     display: none;
+  }
+  .nav__bar-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

@@ -30,7 +30,7 @@ const HomePage = () => {
               I'm <span>Diyor Makhammadjonov</span>
             </h1>
             <p>
-              I am junior Front End Developer. With over <br /> one year of
+              I am Front End Developer. With over <br /> one year of
               experience developing web <br /> applications using the latest
               front-end <br />
               technologies and features.
